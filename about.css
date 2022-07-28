@@ -245,6 +245,7 @@ footer {
 	}
 
 	.logo img {
+		max-width: 380px;
 		max-height: 200px;
 		border: 1px solid var(--color-terciary);
 	}
@@ -280,7 +281,7 @@ footer {
 		background-image: url(images/conference.jpeg);
 		background-size: cover;
 		height: 250px;
-		width: 500px;
+		width: 400px;
 		filter:sepia(80%);
 		text-decoration: none;
 		font-family: Cocogoose;
@@ -305,7 +306,7 @@ footer {
 		filter: sepia(80%);
 		background-size: cover;
 		height: 250px;
-		width: 500px;
+		width: 400px;
 		color: var(--color-terciary);
 		text-decoration: none;
 		font-family: Cocogoose;

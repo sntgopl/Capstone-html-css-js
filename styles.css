@@ -134,7 +134,6 @@ h1 {
 .speaker-card {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	margin-bottom: 30px;
 	gap: 20px;
 }

@@ -5,7 +5,7 @@
  Github, Visual Studio Code, HTML, CSS & Javascript
 
 ## You can find us in:
- Live Demo:
+ [Live Demo](https://sntgopl.github.io/Capstone-html-css-js/)
 
 ## Getting started
  Welcome to my new website. Designed specially for video conference calls and meeting reports for sharing learning and knowledge between fellow partners and community.
