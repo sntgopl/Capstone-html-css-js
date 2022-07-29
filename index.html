@@ -5,8 +5,6 @@
     <title>Global Summit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
-    <script src="speakers.js"></script>
 		<link
 		rel="stylesheet"
 		href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -16,6 +14,13 @@
 	</head>
   <body>
     <div class="header">
+			<div class="social-bar m-nodisplay">
+				<a class="social" href="#"><img src="images/facebook.svg" alt ="facebook"></a>
+				<a class="social" href="#"><img src="images/twitter.svg" alt="twitter"></a>
+				<a class="social" href="#">English</a>
+				<a class="social" href="#">My Pages</a>
+				<a class="social" href="#">Logout</a>
+			</div>
 			<nav>
 				<a class="logo-icon m-nodisplay" href="index.html"><img src="images/creative-commons-license-logo.jpeg" alt="logo"></a>
 				<a id="hamburger" href="#"><div></div><div></div><div></div></a>
@@ -111,7 +116,7 @@
 					</div>
 				</div>
 			</div>
-			<button id="showMoreButton" class="more-button d-nodisplay">MORE<img src="images/angle-down.svg" alt="down-arrow"></button>
+			<button id="showMoreButton" class="more-button d-nodisplay inactive">MORE<img src="images/angle-down.svg" alt="down-arrow"></button>
 		</section>
 		<section class="partner-class">
 			<h2>Partners</h2>
@@ -143,5 +148,8 @@
 				<a class="open-menu-option-button" href="#"><li>CC Campaing</li></a>
 			</ul>
 		</div>
+
+		<script src="index.js"></script>
+    <script src="speakers.js"></script>
   </body>
 </html>

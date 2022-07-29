@@ -363,6 +363,27 @@ h1 {
 		display: none;
 	}
 
+	.social-bar {
+		background-color: var(--color-primary);
+		height: 30px;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 15vw;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.social {
+		font-family: lato, sans-serif;
+		color: var(--color-terciary);
+		font-size: 14px;
+		text-decoration: none;
+	}
+
+	.social img {
+		height: 20px;
+	}
+
 	nav {
 		display: flex;
 		flex-direction: row;
